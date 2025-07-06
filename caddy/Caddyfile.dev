@@ -1,0 +1,12 @@
+{
+    local_certs
+}
+
+tkk.localhost {
+    encode gzip
+    reverse_proxy frontend:3000
+}
+
+api.tkk.localhost {
+    reverse_proxy api:3001
+}

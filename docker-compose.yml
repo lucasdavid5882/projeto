@@ -1,0 +1,59 @@
+name: tekkenproject
+
+services:
+  mysql:
+    image: mysql:8.0.0
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./backend/db-init:/docker-entrypoint-initdb.d
+    networks:
+      - tekkenproject
+    environment:
+      - MYSQL_ROOT_PASSWORD=root!89aZ
+      - MYSQL_DATABASE=tkprojkt
+  api:
+    build:
+      context: ./backend
+      target: production
+    restart: unless-stopped
+    env_file: ./backend/.env
+    networks:
+      - tekkenproject
+    depends_on:
+      - mysql
+  frontend:
+    build:
+      context: ./frontend
+      target: production
+      args:
+        NEXT_PUBLIC_API_URL: https://api.${DOMAIN_NAME}
+    restart: unless-stopped
+    networks:
+      - tekkenproject
+    depends_on:
+      - api
+  caddy:
+    build:
+      context: ./caddy
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN_NAME: ${DOMAIN_NAME}
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - tekkenproject
+    depends_on:
+      - api
+      - frontend
+
+volumes:
+  mysql_data:
+  caddy_data:
+  caddy_config:
+networks:
+  tekkenproject:
+    driver: bridge

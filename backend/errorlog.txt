@@ -1,0 +1,210 @@
+[2025-04-24T21:54:17.867Z] ReferenceError: fetchData is not defined
+    at C:\Users\Lucas\Desktop\tkprojkt\routes\characterRoutes.js:12:18
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:582:12)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:186:3)
+[2025-04-24T21:54:42.329Z] ReferenceError: fetchData is not defined
+    at C:\Users\Lucas\Desktop\tkprojkt\routes\characterRoutes.js:12:18
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:582:12)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:186:3)
+[2025-04-24T21:54:56.086Z] ReferenceError: fetchData is not defined
+    at C:\Users\Lucas\Desktop\tkprojkt\routes\characterRoutes.js:12:18
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:582:12)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:186:3)
+[2025-04-25T01:01:18.035Z] ReferenceError: GameModel is not defined
+    at C:\Users\Lucas\Desktop\tkprojkt\routes\characterRoutes.js:14:16
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:295:15
+    at param (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:600:14)
+    at param (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\Lucas\Desktop\tkprojkt\node_modules\router\index.js:664:3)
+[2025-04-25T01:43:04.580Z] Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1746:13)
+    at C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1735:35)
+    at MySQLQueryGenerator.generateJoin (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1320:24)
+    at MySQLQueryGenerator.generateInclude (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1194:24)
+    at MySQLQueryGenerator.selectQuery (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-generator.js:891:34)
+    at MySQLQueryInterface.select (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Move.findAll (C:\Users\Lucas\Desktop\tkprojkt\node_modules\sequelize\lib\model.js:1140:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-06-27T18:03:39.953Z] SequelizeConnectionError: Unknown database 'tkprojkt'
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:04:06.403Z] SequelizeConnectionError: Unknown database 'tkprojkt'
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:04:24.522Z] SequelizeConnectionError: Unknown database 'tkprojkt'
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:14:24.851Z] SequelizeConnectionRefusedError: connect ECONNREFUSED 172.19.0.2:3307
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:14:27.568Z] SequelizeConnectionRefusedError: connect ECONNREFUSED 172.19.0.2:3307
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:14:32.009Z] SequelizeConnectionRefusedError: connect ECONNREFUSED 172.19.0.2:3307
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:15:17.913Z] SequelizeConnectionRefusedError: connect ECONNREFUSED 172.19.0.2:3307
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:16:23.229Z] SequelizeConnectionError: Unknown database 'tkprojkt'
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T18:28:59.923Z] SequelizeHostNotFoundError: getaddrinfo ENOTFOUND mysql
+    at ConnectionManager.connect (C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:96:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.select (C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async characterGame.findAll (C:\Users\Lucas\Desktop\projeto\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async C:\Users\Lucas\Desktop\projeto\backend\routes\characterRoutes.js:12:24
+[2025-06-27T19:14:50.395Z] SequelizeConnectionRefusedError: connect ECONNREFUSED 172.18.0.2:3307
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T19:15:34.488Z] SequelizeConnectionRefusedError: connect ECONNREFUSED 172.18.0.2:3307
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T19:19:05.334Z] SequelizeConnectionError: Unknown database 'tkprojkt'
+    at ConnectionManager.connect (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/app/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /app/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T19:56:12.100Z] Error
+    at Query.run (/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T22:23:32.111Z] Error
+    at Query.run (/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T22:27:09.559Z] Error
+    at Query.run (/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T22:38:02.895Z] Error
+    at Query.run (/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
+[2025-06-27T22:38:03.169Z] Error
+    at Query.run (/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.select (/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async characterGame.findAll (/app/node_modules/sequelize/lib/model.js:1140:21)
+    at async /app/routes/characterRoutes.js:12:24
